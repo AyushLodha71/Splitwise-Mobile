@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center_vertical"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join a Group"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etJoinCode"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter 7-Character Code"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/joinProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        android:indeterminateTint="#2E7D32"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Join Group"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="#2E7D32"/>
+
+</LinearLayout>

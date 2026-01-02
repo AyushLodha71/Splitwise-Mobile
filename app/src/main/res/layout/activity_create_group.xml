@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Group"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Group Name (e.g., Summer Trip)"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Generate Group Code"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginBottom="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/createProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        android:indeterminateTint="#2E7D32"/>
+
+    <LinearLayout
+        android:id="@+id/layoutSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvGeneratedCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code: XXXXXXX"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnEnterNewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Enter Group Now"
+            android:backgroundTint="#1B5E20"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCreateBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="#666666" />
+
+</LinearLayout>

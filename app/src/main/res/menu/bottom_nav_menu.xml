@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_balances"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Balances" />
+    <item
+        android:id="@+id/nav_settle"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Settle" />
+
+    <item
+        android:id="@+id/nav_delete"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Delete Transaction" />
+
+    <item
+        android:id="@+id/nav_amountspent"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:title="Manage" />
+</menu>
