@@ -98,15 +98,15 @@ app/
 
 ## 🚀 Getting Started
 
-### Quick Install (For Users)
+### Get the App (Official Release)
 
-**Download and install the APK directly:**
-1. Download [`Splitwise Mobile.apk`](./Splitwise%20Mobile.apk) (6.1 MB)
-2. Enable "Install from Unknown Sources" in your Android device settings
-3. Open the downloaded APK file and install
-4. Launch the app and start tracking expenses!
+Download the latest signed APK from the project's GitHub Releases page:
 
-> **Note:** This is a debug build. For production use, create a signed release build.
+- Releases: https://github.com/AyushLodha71/Splitwise-Mobile/releases
+
+Select the latest release and download the APK asset (for example, `Splitwise-Mobile.apk`). Follow standard Android installation steps to install on your device.
+
+> Note: The repository previously included a debug APK for convenience; that file has been removed. Please use the signed release asset on GitHub Releases for production installs.
 
 ### Developer Setup
 
@@ -220,20 +220,17 @@ Run tests with:
 
 ## 🔧 Build Configuration
 
-### Debug Build (Included)
-A pre-built debug APK is included in the repository:
-- **File:** `Splitwise Mobile.apk`
-- **Size:** 6.1 MB
-- **Type:** Debug build
-- **Min Android:** 7.0 (API 24)
+### Releases & downloads
+Signed release APKs are published on the project's GitHub Releases page. Download the latest signed APK from:
 
-### Release Build
-To create a signed release build:
+- https://github.com/AyushLodha71/Splitwise-Mobile/releases
+
+For developers: To create a signed release build locally:
 ```bash
 ./gradlew assembleRelease
 ```
 
-The APK will be available at:
+The signed APK will be available at:
 ```
 app/build/outputs/apk/release/app-release.apk
 ```

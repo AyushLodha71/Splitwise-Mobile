@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Ignore top-level APKs
+Splitwise Mobile.apk
