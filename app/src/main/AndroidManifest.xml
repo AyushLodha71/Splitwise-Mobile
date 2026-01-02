@@ -47,7 +47,7 @@
             android:name=".GroupActivity"
             android:exported="false" />
         
-        <!-- User registration -->
+        <!-- User re`stration -->
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />

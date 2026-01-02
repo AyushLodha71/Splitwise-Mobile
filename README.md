@@ -98,6 +98,18 @@ app/
 
 ## 🚀 Getting Started
 
+### Quick Install (For Users)
+
+**Download and install the APK directly:**
+1. Download [`Splitwise Mobile.apk`](./Splitwise%20Mobile.apk) (6.1 MB)
+2. Enable "Install from Unknown Sources" in your Android device settings
+3. Open the downloaded APK file and install
+4. Launch the app and start tracking expenses!
+
+> **Note:** This is a debug build. For production use, create a signed release build.
+
+### Developer Setup
+
 ### Prerequisites
 - Android Studio Arctic Fox or later
 - JDK 17
@@ -108,7 +120,7 @@ app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/splitwise-mobile.git
+   git clone https://github.com/AyushLodha71/Splitwise-Mobile.git
    cd splitwise-mobile
    ```
 
@@ -208,8 +220,15 @@ Run tests with:
 
 ## 🔧 Build Configuration
 
+### Debug Build (Included)
+A pre-built debug APK is included in the repository:
+- **File:** `Splitwise Mobile.apk`
+- **Size:** 6.1 MB
+- **Type:** Debug build
+- **Min Android:** 7.0 (API 24)
+
 ### Release Build
-To create a release build:
+To create a signed release build:
 ```bash
 ./gradlew assembleRelease
 ```
